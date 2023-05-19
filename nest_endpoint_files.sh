@@ -3,7 +3,7 @@
 # HOW TO RUN
 # ./nestmodule <MODULE_NAME> <FILE_NAME>
 
-nestedfiles() {
+vnestfiles() {
 
   module=$1
   name=$2
