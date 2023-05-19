@@ -9,8 +9,8 @@
 nano $HOME/.bashrc
 ```
 4. Paste it at the end of the file using `Ctrl + Shift + V`
-5. Save using `Ctrl + O` and enter
-6. Exit nano using `Ctrl + X`
+5. Save using `Ctrl + O` + `enter`
+6. Exit nano using `Ctrl + X` + `enter`
 7. Run the following command to update bash scripts
 ```
 source $HOME/.bashrc
