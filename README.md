@@ -27,7 +27,7 @@ nestmodule myModule
 #         - index.ts
 #     - services
 #         - index.ts
-#     -repositories
+#     - repositories
 #         - index.ts
 #     myModule.module.ts  # will be automatically imported in app.module.ts
 ```
