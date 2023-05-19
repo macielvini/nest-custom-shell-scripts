@@ -2,7 +2,7 @@
 
 ## How to add scripts to my Ubuntu terminal
 
-1. Copy your desired bash script function, *feel free to rename it!*
+1. Copy the full content of any ***.sh*** file, which contains the shell script, *feel free to rename the function!*
 2. Open your terminal
 3. Run the following command
 ```
