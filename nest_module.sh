@@ -4,7 +4,7 @@
 # ./nestmodule <MODULE_NAME>
 
 
-nestmodule() {
+vnestmodule() {
 
   name=$1
   capitalized="$(tr '[:lower:]' '[:upper:]' <<<${name:0:1})${name:1}"
