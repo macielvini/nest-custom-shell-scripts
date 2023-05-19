@@ -18,7 +18,7 @@ source $HOME/.bashrc
 8. Now you can run your custom script using its function name!
 
 ### Examples
-```
+```bash
 nestmodule myModule
 
 # will create files inside the src/ of your project following this sctructure
