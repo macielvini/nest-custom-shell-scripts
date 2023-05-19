@@ -24,11 +24,11 @@ nestmodule myModule
 # will create files inside the src/ of your project following this sctructure
 # - myModule
 #     - controllers
-#         - find-all.controller.ts
+#         - index.ts
 #     - services
-#         - find-all.service.ts
+#         - index.ts
 #     -repositories
-#         - find-all.repository.ts
+#         - index.ts
 #     myModule.module.ts  # will be automatically imported in app.module.ts
 ```
 
@@ -41,6 +41,6 @@ nestedfiles myModule find-all
 #         - find-all.controller.ts
 #     - services
 #         - find-all.service.ts
-#     -repositories
+#     - repositories
 #         - find-all.repository.ts
 ```
