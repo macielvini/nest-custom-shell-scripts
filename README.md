@@ -19,7 +19,7 @@ source $HOME/.bashrc
 
 ### Examples
 ```bash
-nestmodule myModule
+vnestmodule myModule
 
 # will create files inside the src/ of your project following this sctructure
 # - myModule
@@ -33,7 +33,7 @@ nestmodule myModule
 ```
 
 ```bash
-nestedfiles myModule find-all
+vnestfiles myModule find-all
 
 # will create files inside the src/ of your project following this sctructure
 # - myModule
