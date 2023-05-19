@@ -3,13 +3,14 @@
 # HOW TO RUN
 # ./nestmodule <MODULE_NAME>
 
-mkfile() { mkdir -p -- "$1" && touch -- "$1"/"$2"; }
 
 nestmodule() {
 
   name=$1
   capitalized="$(tr '[:lower:]' '[:upper:]' <<<${name:0:1})${name:1}"
   path=$(pwd)
+  
+  mkfile() { mkdir -p -- "$1" && touch -- "$1"/"$2"; }
 
   if [[ ! -f "nest-cli.json" ]]; then
     echo "WARNING: Please, run from your NestJS project root folder!"
